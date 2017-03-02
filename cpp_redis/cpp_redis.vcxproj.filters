@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\network">
+      <UniqueIdentifier>{7bc0340a-ccbf-4da7-a231-798a6d6d2678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\network\windows">
+      <UniqueIdentifier>{fc9bdc4f-f3d3-4028-9b2b-16b7acdc2c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\builders">
+      <UniqueIdentifier>{d48ae2de-89a2-4568-8468-a88770cd6eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\builders">
+      <UniqueIdentifier>{d14843e9-fa32-4733-89be-a5dd07697f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\network">
+      <UniqueIdentifier>{a95da45b-8e9a-4243-b218-215df4fb8bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\network\unix">
+      <UniqueIdentifier>{ff226f42-e599-40c6-ac21-889da45c0f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\network\windows">
+      <UniqueIdentifier>{cbc65265-5e5e-49fd-827b-2a7fdef9cc40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\src\logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\redis_client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\redis_subscriber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\reply.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\network\io_service.cpp">
+      <Filter>源文件\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\network\redis_connection.cpp">
+      <Filter>源文件\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\network\tcp_client.cpp">
+      <Filter>源文件\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\network\windows\io_service.cpp">
+      <Filter>源文件\network\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\array_builder.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\builders_factory.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\bulk_string_builder.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\error_builder.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\integer_builder.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\reply_builder.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\src\builders\simple_string_builder.cpp">
+      <Filter>源文件\builders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sources\heads\cpp_redis\cpp_redis">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\heads\cpp_redis\logger.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\redis_client.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\redis_error.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\redis_subscriber.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\reply.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\network\io_service.hpp">
+      <Filter>头文件\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\network\redis_connection.hpp">
+      <Filter>头文件\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\network\socket.hpp">
+      <Filter>头文件\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\network\tcp_client.hpp">
+      <Filter>头文件\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\network\unix\io_service.hpp">
+      <Filter>头文件\network\unix</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\network\windows\io_service.hpp">
+      <Filter>头文件\network\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\array_builder.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\builder_iface.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\builders_factory.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\bulk_string_builder.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\error_builder.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\integer_builder.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\reply_builder.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+    <ClInclude Include="sources\heads\cpp_redis\builders\simple_string_builder.hpp">
+      <Filter>头文件\builders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
